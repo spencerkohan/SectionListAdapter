@@ -1,15 +1,15 @@
-*SectionsListAdapter*
+#SectionsListAdapter#
 
-It's an android list adapter that works with an interface just like iOS's tableview delegate (minus some of the features).  There are three basic parts:
+Android list adapter that works with an interface just like iOS's tableview delegate (minus some of the features).  It has 3 major components:
 
-***The SectionsListAdapter class***
+##SectionsListAdapter class##
 
 This class should be used as-is as your ListView's adapter
 
-***The SectionsListAdapterDelegate interface***
+##The SectionsListAdapterDelegate interface##
 
 Most likely your ListActivity will implement this interface to act just like a UITableViewController.
 
-***The IndexPath class***
+##The IndexPath class##
 
 The SectionsListAdapter will send instances of this class to your ListActivity.
